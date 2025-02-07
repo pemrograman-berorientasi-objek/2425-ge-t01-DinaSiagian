@@ -10,10 +10,10 @@ public class Account {
     private final String account_nama;
     private double balance;
 
-    public Account(String _command, String _owner, String _account_nama, double _balance) {
+    public Account(String _command, String _owner, String _account_nama) {
         this.owner = _owner;
         this.account_nama = _account_nama;
-        this.balance = 0.0;
+        balance = 0.0;
     }
 
     public String getOwner() {

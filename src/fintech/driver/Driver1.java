@@ -14,13 +14,10 @@ public class Driver1 {
         String command = input.nextLine();
         String owner = input.nextLine();
         String account_nama = input.nextLine();
-        Account account = new Account(command, owner, account_nama, 0.0);
+        Account account = new Account(command, owner, account_nama);
 
         input.close();
         System.out.println(account.toString());
-
-
-
 
     }
 
